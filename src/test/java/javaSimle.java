@@ -15,7 +15,10 @@ public class javaSimle {
     private WebDriver driver;
     private final String url = "https://www.google.com/";
 
-// some chenges 
+// some chenges
+
+
+    // dadaf;as,fa';sf,a
     @BeforeTest
     public void TestJund() throws Exception{
         System.setProperty("webdriver.chrome.driver", "D:\\IDEA projects\\WebDrivers\\chromedriver97.exe");
@@ -62,5 +65,7 @@ public class javaSimle {
         return;
     }
 
-
+    public void setDriver(WebDriver driver) {
+        this.driver = driver;
+    }
 }
